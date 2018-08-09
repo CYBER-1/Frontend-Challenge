@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="45px" viewBox="0 0 43 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>east-bus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20.5" cy="20.5" r="20.5"></circle>
+        <filter x="-3.4%" y="-3.4%" width="106.8%" height="111.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.217633929" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.9%" y="-5.9%" width="111.7%" height="116.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.75" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Washington-&amp;-State" transform="translate(-258.000000, -105.000000)">
+            <g id="east-bus" transform="translate(259.000000, 106.000000)">
+                <image id="icons8-bus2_filled" transform="translate(20.500000, 22.000000) scale(-1, 1) rotate(-1.000000) translate(-20.500000, -22.000000) " x="12" y="16" width="17" height="12" xlink:href="data:image/png;base64,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"></image>
+                <g id="Oval-6" fill-rule="nonzero" filter="url(#filter-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use stroke="#FDE014" stroke-width="1.5" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

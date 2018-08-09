@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="47px" viewBox="0 0 117 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>walking-route</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-4.95885647%" x2="9.12341578%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2FE8F0" offset="0%"></stop>
+            <stop stop-color="#E48083" offset="100%"></stop>
+        </linearGradient>
+        <path d="M113,3 L113,21.7633916 C113,23.4202459 111.656854,24.7633916 110,24.7633916 L104.251208,24.7633916 C102.594354,24.7633916 101.251208,26.1065374 101.251208,27.7633916 L101.251208,40 C101.251208,42.209139 99.4603469,44 97.2512079,44 L1,44" id="path-2"></path>
+        <filter x="-3.1%" y="-8.5%" width="106.2%" height="117.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Washington-&amp;-State" transform="translate(-155.000000, -78.000000)" fill-rule="nonzero">
+            <g id="walking-route" transform="translate(156.000000, 78.000000)">
+                <g id="Path-9">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use stroke="url(#linearGradient-1)" stroke-width="1" xlink:href="#path-2"></use>
+                </g>
+                <circle id="Oval-2" fill="#FDE014" cx="113" cy="2" r="2"></circle>
+                <circle id="Oval-2" fill="#FDE014" cx="2" cy="44" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

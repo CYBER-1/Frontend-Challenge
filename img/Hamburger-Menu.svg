@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="21px" viewBox="0 0 28 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Hamburger-Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.3%" y="-17.6%" width="133.3%" height="147.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Washington-&amp;-State" transform="translate(-20.000000, -41.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Hamburger-Menu" filter="url(#filter-1)" transform="translate(20.000000, 42.000000)">
+                <rect id="Rectangle-6" x="0" y="0" width="18" height="3"></rect>
+                <rect id="Rectangle-6" x="0" y="7" width="24" height="3"></rect>
+                <rect id="Rectangle-6" x="0" y="14" width="13" height="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

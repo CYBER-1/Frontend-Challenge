@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30" rx="7"></rect>
+        <filter x="-6.7%" y="-10.0%" width="126.7%" height="126.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M7.015,13.097 C7.015,11.714 7.485,10.439 8.267,9.416 C9.261,8.115 10.763,7.221 12.477,7.046 C12.681,7.025 12.888,7.015 13.098,7.015 C14.049,7.015 14.947,7.24 15.75,7.631 C17.778,8.618 19.183,10.694 19.183,13.098 C19.183,16.453 16.453,19.183 13.099,19.183 C11.428,19.183 9.912,18.506 8.812,17.41 C8.808,17.406 8.803,17.404 8.799,17.398 C8.792,17.392 8.787,17.386 8.781,17.379 C7.691,16.279 7.015,14.765 7.015,13.097 L7.015,13.097 Z M23.972,22.539 L18.779,17.344 C18.887,17.199 18.992,17.05 19.089,16.897 C19.788,15.798 20.199,14.497 20.199,13.098 C20.199,9.178 17.02,6 13.099,6 C10.685,6 8.557,7.207 7.274,9.048 C6.473,10.197 6,11.592 6,13.097 C6,17.02 9.18,20.197 13.098,20.197 C14.693,20.197 16.16,19.666 17.344,18.778 L22.539,23.972 L23.972,22.539 Z" id="path-3"></path>
+        <filter x="-11.1%" y="-16.7%" width="144.5%" height="144.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Washington-&amp;-State" transform="translate(-325.000000, -34.000000)">
+            <g id="Search" transform="translate(325.000000, 35.000000)">
+                <g id="Rectangle" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#68C5F8" xlink:href="#path-1"></use>
+                </g>
+                <g id="search">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

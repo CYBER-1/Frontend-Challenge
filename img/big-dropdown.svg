@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="13px" viewBox="0 0 22 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>big-dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Washington-&amp;-State" transform="translate(-177.000000, -272.000000)" fill="#000000">
+            <path d="M191.537135,288.082667 L182.292152,278.945804 C181.902616,278.561189 181.902616,277.93981 182.292152,277.554196 L191.537135,268.417333 C192.099465,267.860889 193.014375,267.860889 193.577703,268.417333 C194.140033,268.973776 194.140033,269.876873 193.577703,270.433317 L185.669128,278.2505 L193.577703,286.065684 C194.140033,286.623127 194.140033,287.526224 193.577703,288.082667 C193.014375,288.639111 192.099465,288.639111 191.537135,288.082667" id="big-dropdown" transform="translate(187.999725, 278.250000) scale(1, -1) rotate(90.000000) translate(-187.999725, -278.250000) "></path>
+        </g>
+    </g>
+</svg>
