@@ -51,12 +51,12 @@ body {
   
     .washingtonstate .walking-guy {
       background-color    : rgba(255,255,255,0.0);
-      height              : 14px;
+      height              : 20px;
       margin              : 0;
       position            : absolute;
-      left                : 271px;
+      left                : 270px;
       top                 : 69px;
-      width               : 14px;
+      width               : 20px;
     }
     .washingtonstate .walking-route {
       background-color    : rgba(255,255,255,0.0);
