@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BusyBus</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+       
+    <div style="width:375px; height:100%; position:relative; margin:auto";>
+
+        <div class="washingtonstate">
+          <div class="statusbar-background"></div>
+            <img class="statusbar" src="img/status-bar.svg">
+            <img class="hamburgermenu" src="img/hamburger-menu.svg">
+            <img class="map-image" src="img/map.svg">
+            <img class="search" src="img/search.svg">
+            <img class="busdropdown" src="img/bus-dropdown.svg">
+            <img class="walking-guy" src="img/walking-guy.svg">
+            <img class="walking-route" src="img/walking-route.svg">
+            <img class="bus-west" src="img/bus-west.svg">
+            <img class="bus-north" src="img/north-bus.svg">
+            <img class="bus-east" src="img/east-bus.svg">
+            <img class="bus-south" src="img/south-bus.svg">
+            <img class="busstation-flag" src="img/Bus-flag.png">
+
+            <div class="slide-menu">
+                <div class="open-menu-arrow">
+                  <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="station-menu">
+                <h1 class="title">Washington and State</h1>   
+            </div>
+
+            <section class="bus-list">
+                <div class="location">
+                  <div class="content">
+                    <h1>Eastbound</h1>
+                    <ul class="titles">
+                      <li class=line>Line</li>
+                      <li class=dest>Destination</li>
+                      <li class=freq>Frequency</li>
+                      <li class=arr>Arrives</li>
+                    </ul>
+                    <ul class="content"> 
+                      <li class=left>60</li>
+                      <li class=center>Randolph/Harbor Dr</li>
+                      <li class=right>20 min</li>
+                      <li class=time>10:01am</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>124</span></li>
+                      <li class=center>Navy Pier</li>
+                      <li class=right>10 min</li>
+                      <li class=time id="active-bus">9:51am</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="location">
+                  <div class="content">
+                    <h1>Northbound</h1>
+                    <ul class="titles">
+                      <li class=line>Line</li>
+                      <li class=dest>Destination</li>
+                      <li class=freq>Frequency</li>
+                      <li class=arr>Arrives</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>151</li>
+                      <li class=center>Devon/Clark</li>
+                      <li class=right>16 min</li>
+                      <li class=time>9:57am</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="location">
+                  <div class="content">
+                    <h1>Southbound</h1>
+                    <ul class="titles">
+                      <li class=line>Line</li>
+                      <li class=dest>Destination</li>
+                      <li class=freq>Frequency</li>
+                      <li class=arr>Arrives</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>J14</li>
+                      <li class=center>103rd/Stony Island</li>
+                      <li class=right>15 min</li>
+                      <li class=time>9:56am</li>
+                    </ul>
+                    <ul class="content" id="target">
+                      <li class=left>124</li>
+                      <li class=center>Navy Pier</li>
+                      <li class=right>10 min</li>
+                      <li class=time>9:51am</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="location">
+                  <div class="content">
+                    <h1>Reroute</h1>
+                    <ul class="titles">
+                      <li class=line>Line</li>
+                      <li class=dest>Destination</li>
+                      <li class=freq>Frequency</li>
+                      <li class=arr>Arrives</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>6x</li>
+                      <li class=center>Jackson Park Express</li>
+                      <li class=right>N/A</li>
+                      <li class=time id="NA">N/A</li>
+                    </ul>
+                  </div>
+                </div>
+        
+                <div class="location">
+                  <div class="content">
+                    <h1>Out of Service</h1>
+                    <ul class="titles">
+                      <li class=line>Line</li>
+                      <li class=dest>Destination</li>
+                      <li class=freq>Frequency</li>
+                      <li class=arr>Arrives</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>4</li>
+                      <li class=center>Cottage Grove</li>
+                      <li class=right>Resumes 12:10am</li>
+                      <li class=notime>TBD</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>20</li>
+                      <li class=center>Madison</li>
+                      <li class=right>Resumes 12:10am</li>
+                      <li class=notime>TBD</li>
+                    </ul>
+                    <ul class="content">
+                      <li class=left>157</li>
+                      <li class=center>Streeterville/Taylor</li>
+                      <li class=right>Resumes 6:00am</li>
+                      <li class=notime>TBD</li>
+                    </ul>
+                  </div>
+                </div> 
+            </section>
+
+              <section class="bus-info">
+                  <div class="bus-number">124</div>
+                  <div class="info">Bus arrives in: 5 min</br><hr>
+                    .25mi 9:51am</div>
+                  </section>
+</body>
+</html>
