@@ -15,7 +15,7 @@ body {
       width: 100%;
       min-width: 375px;
       height: 100vh;
-      min-height: 667px;
+      height: 667px;
       position: relative;
       overflow: hidden;
       margin: 0px;
@@ -178,21 +178,21 @@ body {
       display: inline-block;
     }
 
-    ul.titles {
+    .titles {
       font-weight: bold;
       padding-bottom: 5px;
       padding-top: 5px;
       background-color: #fff;
     }
 
-    ul.content {
+    .content {
       padding-top: 5px;
       padding-bottom: 5px;
       border: 0.02px solid #DDE3E8;
       margin: -1px;
     }
 
-    li.line {
+    .line {
       width: 10%;
       text-align: center;
     }
@@ -202,32 +202,32 @@ body {
       text-align: center;
   }
   
-  li.freq {
+  .freq {
       width: 25%;
       text-align: center;
   }
   
-  li.arr {
+  .arr {
     width: 20%;
     text-align: center;
   }
   
-  li.left {
+  .left {
       width: 10%;
       text-align: center;
   }
 
-  li.center {
+  .center {
     width: 40%;
     text-align: center;
 }
 
-li.right {
+.right {
     width: 25%;
     text-align: center;
 }
 
-li.time {
+.time {
   width: 20%;
   text-align: center;
   color: #000;
@@ -253,7 +253,7 @@ h1 {
   height: 30px;
 }
 
-li.notime {
+.notime {
   width: 20%;
   text-align: center;
   color: #000;
@@ -267,7 +267,7 @@ li.notime {
 .bus-info {
   width: 375px;
   height: 80px;
-  position: fixed;
+  position: absolute;
   background-color: #68c5f8;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
